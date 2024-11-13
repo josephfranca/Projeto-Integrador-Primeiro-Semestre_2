@@ -1,0 +1,150 @@
+* {
+    margin: auto;
+    padding: 0px;
+ 
+}
+
+header {
+    margin-top: auto;
+    background-color: rgb(97, 58, 6);
+}
+
+header h1 {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header img {
+    display: flex;
+}
+
+nav {
+    background-color: rgb(250, 212, 129);
+    display: flex;
+   
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.cardMae img{
+    margin-top: 300px;
+    margin-left: 50px;
+    margin-bottom: 75px;
+    border-radius: 20px;
+    border: 10px solid rgb(250, 212, 129);
+    width: 500px;
+    height: 500px;
+}
+
+.cardMae{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.textocard1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 400px ;
+}
+/*
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    border: 20px solid black;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+.slide img{
+    width: 800px;
+}
+
+.navegacao_manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual_btn{
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual_btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual_btn:hover{
+    background-color: azure;
+}
+
+#btn1:checked ~ .first{
+    margin-left: 0;
+}
+
+#btn2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#btn3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#btn4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navegacao_automatica div{
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navegacao_automatica{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;  
+}
+*/
+
+
+
+.card_alinhado{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
